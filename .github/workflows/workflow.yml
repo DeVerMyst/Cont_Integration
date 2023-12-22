@@ -25,7 +25,7 @@ jobs:
 
     - name: Change to the repository root
       run: cd $GITHUB_WORKSPACE
-      
+
     - name: Run tests
       run: |
         python -m unittest discover tests
@@ -36,4 +36,4 @@ jobs:
         flake8 .
 
     - name: Run the script
-      run: python code.py  # Remplacez "code.py" par le nom de votre fichier Python
+      run: python mycode.py  # Remplacez "mycode.py" par le nom de votre fichier Python

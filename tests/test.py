@@ -1,7 +1,11 @@
-# test_nom_de_votre_script.py
-
 import unittest
-from code import mul
+import sys
+import os
+
+# Ajoutez le chemin du répertoire parent au chemin d'importation
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from mycode import mul  # Importez depuis mycode.py
 
 class TestMulFunction(unittest.TestCase):
 

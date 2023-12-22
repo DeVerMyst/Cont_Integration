@@ -3,8 +3,8 @@
 import unittest
 from mycode import mul  # Import at the top of the file
 
-class TestMulFunction(unittest.TestCase):
 
+class TestMulFunction(unittest.TestCase):
     def test_mul_positive_numbers(self):
         result = mul(3, 4)
         self.assertEqual(result, 12)
@@ -17,5 +17,6 @@ class TestMulFunction(unittest.TestCase):
         result = mul(7, 0)
         self.assertEqual(result, 0)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()

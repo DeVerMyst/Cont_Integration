@@ -10,3 +10,10 @@
 ├── nom_de_votre_script.py
 └── requirements.txt
 ```
+
+**Mise en forme du documents**
+`Black Formatter`
+
+> clique droit: 
+> - mettre en forme le document
+> - black formator
